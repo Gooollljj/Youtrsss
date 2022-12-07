@@ -6,7 +6,7 @@ DIR_RUNTIME="/usr/bin"
 DIR_TMP="$(mktemp -d)"
 
 # Write V2Ray configuration
-cat << EOF > ${DIR_TMP}/heroku.json
+cat << EOF > ${DIR_TMP}/a.json
 {
     "inbounds": [{
         "port": ${PORT},
